@@ -1,0 +1,85 @@
+.mission{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.mission .image img{
+    width: 255px;
+    height: 112px;
+    margin: 16px 57px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 12px rgba(245, 81, 81, 0.308);
+}
+
+.text .read-or-hide{
+    background-color: #f90049;
+    font-weight: bold;
+    padding: 0 10px;
+    margin: 0 3px;
+    border-radius: 30px;
+}
+
+.text .read-or-hide :hover{
+    text-decoration: underline;
+}
+
+                          /* CHAND*/
+
+.mission .chand-text{
+    margin: 20px 80px;
+}
+
+.chand-text h5{
+    color: rgb(62, 62, 193);
+    text-transform: capitalize;
+    font-size: x-large;
+}
+
+.chand-text p{
+    max-width: 750px;
+    letter-spacing: 1px;
+}  
+ 
+                           /* MANGAL */
+          
+/* .mangal-text p{
+    max-width: 520px;
+}
+
+                           /* SATEL */
+
+/*.satel-text p{
+    max-width: 520px;
+}    
+
+                           /* CHAND2 */
+
+/*.chand2-text p{
+    max-width: 520px;
+} */
+
+            
+
+
+/* @media screen and (min-width: 1024px)
+{
+    .mission .image :nth-child(odd) .image
+    {
+        order: 1;
+    }
+
+    .mission .image img :nth-child(even) .image{
+        order: 2;
+    }
+
+    .mission .image img :nth-child(odd) .text{
+        order: 3;
+    }
+
+    .mission .image img :nth-child(even) .text{
+        order: 4;
+    }
+} */
